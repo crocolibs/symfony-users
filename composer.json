@@ -1,0 +1,29 @@
+  "name": "crocolibs/symfony-users",
+  "version": "0.0.0.1",
+  "keywords": ["symfony", "user-bundle", "user management", "login", "user account"],
+  "type": "symfony-bundle",
+  "description": "A simple library for basic user management features.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eric COURTIAL",
+      "email": "e.courtial30@gmail.com",
+      "homepage": "https://github.com/enrico69",
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+      "psr-4": {
+          "CrocoLibs\\SymfonyUsers\\": ""
+      },
+      "exclude-from-classmap": [
+          "/Tests/"
+      ]
+  },
+  "autoload-dev": {
+      "psr-4": {
+          "CrocoLibs\\SymfonyUsers\\Tests\\": "/Tests/"
+      }
+  }
