@@ -1,3 +1,4 @@
+{  
   "name": "crocolibs/symfony-users",
   "version": "0.0.0.1",
   "keywords": ["symfony", "user-bundle", "user management", "login", "user account"],
@@ -27,3 +28,4 @@
           "CrocoLibs\\SymfonyUsers\\Tests\\": "/Tests/"
       }
   }
+}
